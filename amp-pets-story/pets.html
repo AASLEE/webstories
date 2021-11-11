@@ -56,12 +56,13 @@
     </style>
   </head>
   <body>
-    <amp-story standalone supports-landscape
+    <amp-story standalone
         title="Joy of Pets"
         publisher="AMP tutorials"
         publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
         poster-portrait-src="assets/cover.jpg">
       <amp-story-page id="cover">
+    <!--Cover page-->
        <amp-story-grid-layer template="fill">
          <amp-img src="assets/cover.jpg"
            width="720" height="1280"
@@ -69,6 +70,12 @@
            alt="">
         </amp-img>
        </amp-story-grid-layer>
+      <amp-story_grid-layer>
+      <amp-story-grid-layer template="vertical">
+        <h1>The Joy of Pets</h1>
+        <p>By AMP Tutorials</p>
+      </amp-story-grid-layer>
+      </amp-story_grid-layer>
      </amp-story-page>   
     </amp-story>
   </body>
